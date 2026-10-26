@@ -5,7 +5,8 @@
   "scripts": {
     "build:css": "tailwindcss -i ./assets/css/src/input.css -o ./assets/css/tailwind.css --minify",
     "dev:css": "tailwindcss -i ./assets/css/src/input.css -o ./assets/css/tailwind.css --watch",
-    "build": "npm run build:css",
+    "build:pages": "node build-gh-pages.js",
+    "build": "npm run build:css && npm run build:pages",
     "dev": "npm run dev:css"
   },
   "keywords": [
