@@ -1,0 +1,26 @@
+<!-- wp:template-part {"slug":"header","tagName":"header"} /-->
+<main class="wp-block-group tf-section">
+    <article class="tf-shell tf-content-body">
+        <header class="tf-page-header tf-reveal" style="text-align:left;max-width:100%;margin-bottom:2rem;">
+            <!-- wp:post-title {"level":1,"className":"tf-page-title"} /-->
+            <div class="tf-journal-meta" style="margin-top:1rem;font-size:0.9rem;">
+                <!-- wp:post-date /-->
+                <span>•</span>
+                <!-- wp:post-author-name {"isLink":false} /-->
+            </div>
+        </header>
+
+        <!-- wp:post-featured-image {"style":{"border":{"radius":"16px"}},"className":"tf-reveal"} /-->
+
+        <div class="tf-reveal" style="margin-top:2.5rem;">
+            <!-- wp:post-content {"layout":{"type":"constrained"}} /-->
+        </div>
+
+        <div style="display:flex;justify-content:space-between;margin-top:4rem;padding-top:2rem;border-top:1px solid var(--tf-line);">
+            <!-- wp:post-navigation-link {"type":"previous","label":"← Previous Note"} /-->
+            <!-- wp:post-navigation-link {"type":"next","label":"Next Note →"} /-->
+        </div>
+    </article>
+</main>
+<!-- wp:pattern {"slug":"thread-and-form/newsletter"} /-->
+<!-- wp:template-part {"slug":"footer","tagName":"footer"} /-->

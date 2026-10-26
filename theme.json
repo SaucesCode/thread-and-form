@@ -1,0 +1,280 @@
+{
+  "$schema": "https://schemas.wp.org/wp/6.6/theme.json",
+  "version": 3,
+  "settings": {
+    "appearanceTools": true,
+    "layout": {
+      "contentSize": "820px",
+      "wideSize": "1440px"
+    },
+    "color": {
+      "defaultPalette": false,
+      "palette": [
+        {
+          "slug": "navy",
+          "name": "Obsidian Noir",
+          "color": "#11141a"
+        },
+        {
+          "slug": "paper",
+          "name": "Warm Linen",
+          "color": "#fbfaf7"
+        },
+        {
+          "slug": "sand",
+          "name": "Champagne Cashmere",
+          "color": "#f2eee7"
+        },
+        {
+          "slug": "blue",
+          "name": "Mist Blue",
+          "color": "#e2ebf2"
+        },
+        {
+          "slug": "muted",
+          "name": "Warm Slate",
+          "color": "#5c6773"
+        },
+        {
+          "slug": "line",
+          "name": "Soft Hairline",
+          "color": "#e5e0d8"
+        },
+        {
+          "slug": "accent",
+          "name": "Artisan Cognac",
+          "color": "#b36b43"
+        },
+        {
+          "slug": "white",
+          "name": "Pure White",
+          "color": "#ffffff"
+        }
+      ]
+    },
+    "typography": {
+      "fluid": true,
+      "fontFamilies": [
+        {
+          "slug": "sans",
+          "name": "Plus Jakarta Sans",
+          "fontFamily": "'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif"
+        },
+        {
+          "slug": "serif",
+          "name": "Playfair Display",
+          "fontFamily": "'Playfair Display', Georgia, serif"
+        }
+      ],
+      "fontSizes": [
+        {
+          "slug": "small",
+          "name": "Small",
+          "size": "0.875rem"
+        },
+        {
+          "slug": "medium",
+          "name": "Body",
+          "size": "1rem"
+        },
+        {
+          "slug": "large",
+          "name": "Lead",
+          "size": "1.25rem"
+        },
+        {
+          "slug": "x-large",
+          "name": "Section",
+          "size": "2.25rem"
+        },
+        {
+          "slug": "xx-large",
+          "name": "Title",
+          "size": "3.5rem"
+        },
+        {
+          "slug": "display",
+          "name": "Hero Display",
+          "size": "5.5rem"
+        }
+      ]
+    },
+    "spacing": {
+      "units": [
+        "px",
+        "rem",
+        "vw",
+        "%"
+      ],
+      "spacingSizes": [
+        {
+          "slug": "20",
+          "name": "Small",
+          "size": "0.75rem"
+        },
+        {
+          "slug": "30",
+          "name": "Medium",
+          "size": "1.5rem"
+        },
+        {
+          "slug": "40",
+          "name": "Large",
+          "size": "2.5rem"
+        },
+        {
+          "slug": "50",
+          "name": "Section",
+          "size": "5rem"
+        },
+        {
+          "slug": "60",
+          "name": "Spacious",
+          "size": "7.5rem"
+        }
+      ]
+    }
+  },
+  "styles": {
+    "color": {
+      "background": "var:preset|color|paper",
+      "text": "var:preset|color|navy"
+    },
+    "typography": {
+      "fontFamily": "var:preset|font-family|sans",
+      "fontSize": "1rem",
+      "lineHeight": "1.65"
+    },
+    "spacing": {
+      "blockGap": "1.75rem"
+    },
+    "elements": {
+      "heading": {
+        "typography": {
+          "fontFamily": "var:preset|font-family|serif",
+          "fontWeight": "500",
+          "lineHeight": "1.15",
+          "letterSpacing": "-0.025em"
+        }
+      },
+      "h1": {
+        "typography": {
+          "fontFamily": "var:preset|font-family|serif",
+          "fontWeight": "500",
+          "lineHeight": "1.08",
+          "letterSpacing": "-0.035em"
+        }
+      },
+      "h2": {
+        "typography": {
+          "fontFamily": "var:preset|font-family|serif",
+          "fontWeight": "500",
+          "lineHeight": "1.15",
+          "letterSpacing": "-0.025em"
+        }
+      },
+      "h3": {
+        "typography": {
+          "fontFamily": "var:preset|font-family|sans",
+          "fontWeight": "600",
+          "lineHeight": "1.25",
+          "letterSpacing": "-0.015em"
+        }
+      },
+      "link": {
+        "color": {
+          "text": "var:preset|color|navy"
+        },
+        "typography": {
+          "textDecoration": "none"
+        },
+        ":hover": {
+          "color": {
+            "text": "var:preset|color|accent"
+          }
+        }
+      },
+      "button": {
+        "border": {
+          "radius": "9999px"
+        },
+        "color": {
+          "background": "var:preset|color|navy",
+          "text": "var:preset|color|white"
+        },
+        "spacing": {
+          "padding": {
+            "top": "0.95rem",
+            "bottom": "0.95rem",
+            "left": "2.25rem",
+            "right": "2.25rem"
+          }
+        },
+        "typography": {
+          "fontFamily": "var:preset|font-family|sans",
+          "fontSize": "0.925rem",
+          "fontWeight": "600",
+          "letterSpacing": "0.02em"
+        }
+      }
+    },
+    "blocks": {
+      "core/site-title": {
+        "typography": {
+          "fontFamily": "var:preset|font-family|sans",
+          "fontSize": "1.45rem",
+          "fontWeight": "700",
+          "letterSpacing": "-0.04em"
+        },
+        "elements": {
+          "link": {
+            "typography": {
+              "textDecoration": "none"
+            }
+          }
+        }
+      },
+      "core/post-title": {
+        "typography": {
+          "fontFamily": "var:preset|font-family|serif",
+          "fontSize": "3.5rem",
+          "fontWeight": "500",
+          "letterSpacing": "-0.03em"
+        }
+      },
+      "core/navigation": {
+        "typography": {
+          "fontFamily": "var:preset|font-family|sans",
+          "fontSize": "0.925rem",
+          "fontWeight": "500"
+        }
+      },
+      "core/button": {
+        "border": {
+          "radius": "9999px"
+        }
+      }
+    }
+  },
+  "templateParts": [
+    {
+      "name": "header",
+      "title": "Header",
+      "area": "header"
+    },
+    {
+      "name": "footer",
+      "title": "Footer",
+      "area": "footer"
+    }
+  ],
+  "customTemplates": [
+    {
+      "name": "blank",
+      "title": "Full-width content",
+      "postTypes": [
+        "page"
+      ]
+    }
+  ]
+}

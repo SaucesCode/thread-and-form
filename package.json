@@ -1,0 +1,25 @@
+{
+  "name": "thread-and-form",
+  "version": "1.2.0",
+  "description": "Thread & Form — Luxury Fashion Architectural Flagship with Tailwind CSS",
+  "scripts": {
+    "build:css": "tailwindcss -i ./assets/css/src/input.css -o ./assets/css/tailwind.css --minify",
+    "dev:css": "tailwindcss -i ./assets/css/src/input.css -o ./assets/css/tailwind.css --watch",
+    "build": "npm run build:css",
+    "dev": "npm run dev:css"
+  },
+  "keywords": [
+    "wordpress",
+    "tailwindcss",
+    "luxury-fashion"
+  ],
+  "author": "Thread & Form Studio",
+  "license": "ISC",
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.3.3",
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.38",
+    "puppeteer-core": "^24.40.0",
+    "tailwindcss": "^4.3.3"
+  }
+}
